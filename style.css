@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: gray;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+canvas {
+    background: linear-gradient(45deg, rgb(255, 136, 136), rgb(113, 113, 255));
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    letter-spacing: normal;
+    image-rendering: pixelated;
+}
+@font-face {
+    font-family: "DeterminationMono";
+    src: url("determination.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Status";
+    src: url("undertale-status-font.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
